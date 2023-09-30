@@ -42,3 +42,52 @@
 
 
 }
+
+
+@media screen and (min-width: 768px) {
+
+
+    .buttons{
+        margin-top: 176px;
+        display: flex;
+        margin-left: 32px;
+        gap: 21px;
+        background-color: transparent;
+    }
+    
+    .mark{
+        width: 51px;
+        height: 51px;
+        flex-shrink: 0;
+        fill: var(--Dark-Blue, #262E38);
+        border-radius: 50px;
+        border: 0px;
+        color: var(--Medium-Gray, #7C8798);
+        /* ---------- */
+        text-align: center;
+        font-family: Overpass;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 24px; /* 171.429% */
+        letter-spacing: 0.175px;
+        background-color:  #262E38 ;
+        cursor: pointer;
+        
+    }
+    
+    .mark:hover{
+        background-color:#7C8798 ;
+        color: #fff;
+    
+    }
+    
+    .selected{
+        background-color: #FC7614 ;
+        color: #fff;
+    }
+    
+
+
+
+}

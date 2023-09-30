@@ -19,4 +19,41 @@
     cursor: pointer;
 }
 
+.submit_button:hover {
+    color:  var(--Orange, #FC7614);
+    background: var(--Pure-White, #FFF) ;
+}
+
+}
+
+
+@media screen and (min-width: 768px) {
+
+    .submit_button{
+        width: 341px;
+        height: 45px;
+        flex-shrink: 0;
+        color: var(--Pure-White, #FFF);
+        font-family: Overpass;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        letter-spacing: 1.867px;
+        margin-top: 32px;
+        margin-left: 32px;
+        border-radius: 22.5px;
+        background: var(--Orange, #FC7614);
+        border: 0px;
+        cursor: pointer;
+    }
+    
+    .submit_button:hover {
+        color:  var(--Orange, #FC7614);
+        background: var(--Pure-White, #FFF) ;
+    }
+    
+
+
+    
 }
