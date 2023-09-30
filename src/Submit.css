@@ -1,0 +1,22 @@
+@media screen and (max-width: 768px) {
+
+.submit_button{
+    width: 279px;
+    height: 45px;
+    flex-shrink: 0;
+    color: var(--Pure-White, #FFF);
+    font-family: Overpass;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 1.867px;
+    margin-top: 24px;
+    margin-left: 24px;
+    border-radius: 22.5px;
+    background: var(--Orange, #FC7614);
+    border: 0px;
+    cursor: pointer;
+}
+
+}

@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Inter:wght@700&family=Overpass:wght@700&family=Space+Mono:wght@700&display=swap');
+
+@media screen and (max-width: 768px) {
+
+.heder_container{
+    background: #262E38;  
+}
+
+.header {
+    color: var(--Pure-White, #FFF);
+    font-family: Overpass;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    background-color: transparent;
+    position: absolute;
+    margin-top: 90px;
+    margin-left: 24px;
+}
+
+.text {
+    color: var(--Light-Grey, #969FAD);
+    font-family: Overpass;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px; /* 157.143% */
+    margin-top: 127px;
+    position: absolute;
+    background-color:transparent;
+    margin-right: 24px;
+    margin-left: 24px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+}
