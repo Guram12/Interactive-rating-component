@@ -24,20 +24,25 @@ Follow these steps to get the project setup on your local machine:
 $ git clone https://github.com/your-username/your-project-name.git
 ```
 
-Navigate to Project Directory
+### Navigate to Project Directory
 ```bash
 $ cd your-project-name
 ```
 
-Install Dependencies
+### Install Dependencies
 ```bash
 $ npm install
 ```
 
-Start the Development Server
+### Start the Development Server
+`This will start the development server and open the application in your default browser.`
 ```bash
 $ npm start
 ```
+
+## Usage
+Select a rating from 1 to 5 by clicking on a button. Click on the "Submit" button to submit your rating. Your selected rating will be displayed on a new page.
+
 
 
 
